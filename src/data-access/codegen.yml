@@ -1,0 +1,18 @@
+overwrite: true
+schema: src/data-access/schema.gql
+generates:
+  src/data-access/generated.tsx:
+    documents: src/**/*.gql
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+      - add:
+          content: "/* eslint-disable */"
+    config:
+      withHooks: true
+      withComponent: false
+      withHOC: false
+hooks:
+  afterAllFileWrite:
+    - prettier --write

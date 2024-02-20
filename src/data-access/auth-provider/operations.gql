@@ -1,0 +1,7 @@
+#import userFragment from "../fragments/fragments.gql"
+
+query User($input: UserInput!) {
+  user(input: $input) {
+    ...userFragment
+  }
+}

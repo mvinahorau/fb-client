@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /start-game
+Allow: /support-us
+
+Sitemap: https://fabletopia.games/sitemap.xml

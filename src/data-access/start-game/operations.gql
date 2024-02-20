@@ -1,0 +1,30 @@
+#import userFragment from "../fragments/fragments.gql"
+
+query Avatars {
+  avatars {
+    id
+    src
+  }
+}
+
+mutation startGame($input: CreateGameInput!) {
+  startGame(input: $input) {
+    game {
+      id
+      slug
+      status
+      host {
+        ...userFragment
+      }
+      players {
+        user {
+          ...userFragment
+        }
+        score
+      }
+    }
+    player {
+      ...userFragment
+    }
+  }
+}

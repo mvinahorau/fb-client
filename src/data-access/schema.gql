@@ -1,0 +1,120 @@
+schema {
+  query: Queries
+  mutation: Mutations
+}
+
+"""Exposes a URL that specifies the behaviour of this scalar."""
+directive @specifiedBy(
+  """The URL that specifies the behaviour of this scalar."""
+  url: String!
+) on SCALAR
+
+input AddAvatarInput {
+  src: String
+}
+
+input AddCardInput {
+  src: String
+  pack: String
+}
+
+input AddSocketInput {
+  slug: String
+  socket: String
+}
+
+type Avatar {
+  id: ID
+  src: String
+}
+
+input AvatarInput {
+  id: ID
+}
+
+type Card {
+  _id: ID
+  id: ID
+  src: String
+  pack: String
+}
+
+input CardInput {
+  id: ID
+}
+
+input CreateGameInput {
+  nickname: String
+  avatar: ID
+  host: ID
+  slug: ID
+  userId: ID
+}
+
+type Game {
+  id: ID
+  slug: String
+  status: String
+  host: User
+  players: [Player]
+  discardPile: [Card]
+  rounds: [Round]
+}
+
+input GameInput {
+  slug: String
+  socket: String
+}
+
+type Move {
+  id: ID
+  card: Card
+  user: User
+}
+
+type Mutations {
+  startGame(input: CreateGameInput): StartGame
+  addSocketToGame(input: AddSocketInput): Game
+  addCard(input: AddCardInput): Card
+  addAvatar(input: AddAvatarInput): Avatar
+}
+
+type Player {
+  id: ID
+  user: User
+  score: Int
+}
+
+type Queries {
+  card(input: CardInput): Card
+  cards: [Card]
+  user(input: UserInput): User
+  game(input: GameInput): Game
+  avatar(input: AvatarInput): Avatar
+  avatars: [Avatar]
+}
+
+type Round {
+  id: ID
+  phrase: String
+  narrator: User
+  readyPlayers: [User]
+  table: [Move]
+}
+
+type StartGame {
+  game: Game
+  player: User
+}
+
+type User {
+  id: ID
+  nickname: String
+  email: String
+  avatar: Avatar
+}
+
+input UserInput {
+  id: ID
+}
+

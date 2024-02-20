@@ -1,0 +1,80 @@
+{
+  "loading": "Kraunama...",
+  "owner": "Kūrėjas",
+  "intro": {
+    "title": "Dixit Internetinis </br> Kortų Žaidimas",
+    "description": "Patinka&nbsp;Žaisti Dixit? Mes&nbsp;sukūrėme an&nbsp;internetinę versiją of&nbsplegendinio žaidimo by&nbsp; pridėdami papildomas funkcijas to&nbsp;it. Pradėk žaisti Fabletopia dabar!",
+    "playNow": "Žaisti Dabar",
+    "supportUs": "Paremkit mus",
+    "phrase": "Svajok!",
+    "writeUs": "Parašyk mums",
+    "allRightsReserved": "Visos teisės saugomos"
+  },
+  "supportUs": {
+    "title": "Patinka Fabletopia?</br> Paremk projektą!",
+    "makeDonate": "Remti",
+    "orderCard": "Užsisakytį kortelę",
+    "makeDonateDesc": "Tavo auka padės go&nbsp;spartinti kūrimą ir tobulinimą Fabletopia. Ačiū už tavo gerumą!",
+    "orderCardDesc": "Nori &nbsp;susikurti a&nbsp;asmeninę kortelę? Mes &nbsp;tai padarysime&nbsp;ir pridėsime&nbsp;to&nbsp; į žaidimą. Paremk mus a&nbsp;<strong>5&nbsp;USD</strong>.&nbsp;Mokėjimo paskirtyje patikslinkite savo <strong>vardą</strong>, ir <strong>elektroninį paštą</strong> taip pat <strong> kortelės &nbsp;apibūdinimą</strong>.",
+    "donateUsBtn": "Paaukokite mums",
+    "orderCardBtn": "Užsisakyti kortelę"
+  },
+  "startGame": {
+    "title": "Labas,\ndrauge \uD83D\uDC4B",
+    "invitedSubtitle": "Buvote pakviesti į žaidimą.",
+    "nickname": "Slapyvardis",
+    "createGame": "Sukurti naują žaidimą",
+    "joinGame": "Prisijungti prie egzistuojančio žaidimo",
+    "invited": "Buvote pakviestas prisijungti prie žaidimo",
+    "signUpDescription": "Norite išsaugoti savo progresą arba gauti papildomų kortelių?",
+    "signUp": "Registracija"
+  },
+  "avatarSelector": {
+    "alt": "Avataro paveikslėlis",
+    "modalHeader": "Pasirinktį avatarą"
+  },
+  "waitingRoom": {
+    "title": "Laukiamasis",
+    "inviteLink": "Pakvietimo Nuoroda",
+    "copy": "Kopijuoti",
+    "copied": "Nukopijuota",
+    "inviteDescription": "Išsiūsti pakvietimą draugui",
+    "inviteDescriptionClient": "Prašome palaukti kol kūrėjas pradės žaidimą",
+    "gamersList": "Žaidėjų sąrašas",
+    "startGame": "Pradėti žaidimą",
+    "startedGame": "Žaidimas jau buvo pradėtas!",
+    "selectAvatar": "Norint tęsti žaidimą prašome pasirinkti avatarą",
+    "removedFromTheGame": "Buvote pašalintas iš žaidimo pagal šeimininką",
+    "waitText": "Palaukite bent jau 3 žaidėjų jog pradėti žaidimą"
+  },
+  "game": {
+    "myHand": "Mano ėjimas",
+    "votingBoard": "Balsavimo lenta",
+    "yourChoose": "Pasirinkite",
+    "makeVote": "Balsuokite",
+    "wait": "Palaukite",
+    "makeStory": "Sukurti istoriją",
+    "thinkingPhrase": "Mąstau...",
+    "cardSubmitBtn": "Siūsti",
+    "voteSubmitBtn": "Balsuoti",
+    "cardAssociationInput": "Asociacija",
+    "descriptionMustFilling": "Jūsų aprašymas turi būti užpildytas.",
+    "yourCard": "Tavo korta",
+    "alreadyVoted": "Jau balsavai",
+    "youNarrator": "Jūs pasakotojas, palaukite kol kiti žaidėjai baigs balsuoti.",
+    "waitingStoryteller": "Laukiama pasakotojo",
+    "waiting": "Laukiama",
+    "nextRound": "Kitas turas",
+    "points": "Taškai",
+    "leader": "Lyderis",
+    "winner": "Nugalėtojas",
+    "gameStatistics": "Žaidimo Statistika",
+    "roundResults": "Turo rezultatai",
+    "storyteller": "Pasakotojas",
+    "finishedRounds": "Pasibaigę turai",
+    "finishedGame": "Pasibaigęs žaidimas",
+    "showResults": "Rodyti rezultatus",
+    "endGame": "Žaidimo pabaiga",
+    "leaveGame": "Išeiti iš žaidimo"
+  }
+}

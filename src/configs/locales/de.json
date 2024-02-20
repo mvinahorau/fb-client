@@ -1,0 +1,54 @@
+{
+  "loading": "Loading...",
+  "owner": "Owner",
+  "intro": {
+    "title": "Dixit-basiertes Online-Kartenspiel",
+    "description": "Lieben Sie es, Dixit zu spielen? Wir haben eine Online-Version des legendären Spiels mit modernen Funktionen erstellt. Starten Sie jetzt mit Fabletopia online!",
+    "playNow": "Jetzt spielen",
+    "supportUs": "Unterstützen Sie uns",
+    "phrase": "Kreieren Sie Träume!"
+  },
+  "supportUs": {
+    "title": "Gefällt Ihnen Fabletopia?</br>Unterstützen Sie das Projekt!",
+    "description": "Lieben Sie es, Dixit zu spielen? Wir haben eine Online-Version des legendären Spiels mit modernen Funktionen erstellt. Starten Sie jetzt mit Fabletopia online!",
+    "makeDonate": "Jetzt spenden",
+    "orderCard": "Kundenkarte bestellen",
+    "makeDonateDesc": "Ihre Spende wird zur Unterstützung der Entwicklung und Verbesserung des Spiels und seiner Online-Community verwendet. Vielen Dank für Ihre Unterstützung!",
+    "orderCardDesc": "Möchten Sie eine maßgeschneiderte Karte erstellen? Wir werden es erstellen und dem Spiel hinzufügen. Tätigen Sie eine Spende in Höhe von <strong>5&nbsp;USD</strong>. Geben Sie in der Beschreibung für die Überweisung Ihren <strong>Spitznamen</strong>, Ihre <strong>E-Mail-Adresse</strong> und eine <strong>Beschreibung der Karte</strong> an.",
+    "donateUsBtn": "Unterstützen Sie uns",
+    "orderCardBtn": "Karte bestellen"
+  },
+  "startGame": {
+    "title": "Hello,\nfriend \uD83D\uDC4B",
+    "invitedSubtitle": "Your have been invited to the game.",
+    "nickname": "Nickname",
+    "createGame": "Create New Game",
+    "joinGame": "Join The Game",
+    "invited": "Your have been invited to the game.",
+    "signUpDescription": "Wanna save a your game progress or to get extra cards?",
+    "signUp": "Sign Up"
+  },
+  "avatarSelector": {
+    "alt": "Avatar Image",
+    "modalHeader": "Choose Avatar"
+  },
+  "waitingRoom": {
+    "title": "Waiting Room",
+    "inviteLink": "Invite link",
+    "copy": "Copy",
+    "copied": "Copied",
+    "inviteDescription": "Send invitational link to your friends",
+    "inviteDescriptionClient": "Please wait until owner starts the game",
+    "gamersList": "Gamers List",
+    "startGame": "Start Game",
+    "startedGame": "This game has been already started!"
+  },
+  "game": {
+    "myHand": "My Hand",
+    "yourChoose": "Make your chooseDE",
+    "wait": "Just WaitDE",
+    "makeStory": "Make StoryDE",
+    "waitingStoryteller": "Waiting StorytellerDE",
+    "thinkingPhrase": "I'm thinking..."
+  }
+}

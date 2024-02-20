@@ -1,0 +1,17 @@
+#import userFragment from "../fragments/fragments.gql"
+
+query Waiting($input: GameInput!) {
+  game(input: $input) {
+    id
+    slug
+    status
+    host {
+      ...userFragment
+    }
+    players {
+      user {
+        ...userFragment
+      }
+    }
+  }
+}

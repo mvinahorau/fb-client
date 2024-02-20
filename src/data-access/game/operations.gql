@@ -1,0 +1,31 @@
+#import userFragment from "../fragments/fragments.gql"
+
+query Game($input: GameInput!) {
+  game(input: $input) {
+    id
+    slug
+    status
+    host {
+      ...userFragment
+    }
+    players {
+      user {
+        ...userFragment
+      }
+      score
+    }
+    rounds {
+      id
+      phrase
+      readyPlayers {
+        id
+      }
+      narrator {
+        ...userFragment
+      }
+      table {
+        id
+      }
+    }
+  }
+}

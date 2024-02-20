@@ -1,0 +1,80 @@
+{
+  "loading": "Loading...",
+  "owner": "Owner",
+  "intro": {
+    "title": "Dixit Based Online</br>Card Game",
+    "description": "Love to&nbsp;play Dixit? We&nbsp;have created an&nbsp;online version of&nbsp;the legendary game by&nbsp;adding modern features to&nbsp;it. Start playing Fabletopia online right now!",
+    "playNow": "Play now",
+    "supportUs": "Support Us",
+    "phrase": "Create dreams!",
+    "writeUs": "Write to us",
+    "allRightsReserved": "All Rights Reserved"
+  },
+  "supportUs": {
+    "title": "Do you like Fabletopia?</br> Support the project!",
+    "makeDonate": "Make Donate",
+    "orderCard": "Order Custom Card",
+    "makeDonateDesc": "Your donation will go&nbsp;towards supporting the development and improvement of&nbsp;the game and its online community. Thank you for your support!",
+    "orderCardDesc": "Want to&nbsp;create a&nbsp;custom card? We&nbsp;will make it&nbsp;and add it&nbsp;to&nbsp;the game. Make a&nbsp;donation in&nbsp;the amount of <strong>5&nbsp;USD</strong>. In&nbsp;the description for the transfer, specify your <strong>nickname</strong>, <strong>email address</strong> and a <strong>description of&nbsp;the card</strong>.",
+    "donateUsBtn": "Donate Us",
+    "orderCardBtn": "Order a card"
+  },
+  "startGame": {
+    "title": "Hello,\nfriend \uD83D\uDC4B",
+    "invitedSubtitle": "Your have been invited to the game.",
+    "nickname": "Nickname",
+    "createGame": "Create New Game",
+    "joinGame": "Join Game",
+    "invited": "Your have been invited to the game",
+    "signUpDescription": "Wanna save your game progress or to get extra cards?",
+    "signUp": "Sign Up"
+  },
+  "avatarSelector": {
+    "alt": "Avatar Image",
+    "modalHeader": "Choose Avatar"
+  },
+  "waitingRoom": {
+    "title": "Waiting Room",
+    "inviteLink": "Invite link",
+    "copy": "Copy",
+    "copied": "Copied",
+    "inviteDescription": "Send invitational link to your friends",
+    "inviteDescriptionClient": "Please wait until owner starts the game",
+    "gamersList": "Gamers List",
+    "startGame": "Start Game",
+    "startedGame": "This game has been already started!",
+    "selectAvatar": "Please, select avatar to continue",
+    "removedFromTheGame": "You've been removed from the Game by Host",
+    "waitText": "Wait for at least 3 players to start the game"
+  },
+  "game": {
+    "myHand": "My Hand",
+    "votingBoard": "Voting Board",
+    "yourChoose": "Make your choose",
+    "makeVote": "Make Vote",
+    "wait": "Just Wait",
+    "makeStory": "Make Story",
+    "thinkingPhrase": "I'm thinking...",
+    "cardSubmitBtn": "Send",
+    "voteSubmitBtn": "Vote",
+    "cardAssociationInput": "Association",
+    "descriptionMustFilling": "Your Narrator, Description must be filled.",
+    "yourCard": "Your Card",
+    "alreadyVoted": "You have already voted",
+    "youNarrator": "You, the narrator, wait for the other players to finish voting.",
+    "waitingStoryteller": "Waiting Storyteller",
+    "waiting": "Waiting",
+    "nextRound": "Next Round",
+    "points": "points",
+    "leader": "Leader",
+    "winner": "Winner",
+    "gameStatistics": "Game Statistics",
+    "roundResults": "Round Results",
+    "storyteller": "Storyteller",
+    "finishedRounds": "Finished rounds",
+    "finishedGame": "Finished Game",
+    "showResults": "Show Results",
+    "endGame": "End Game",
+    "leaveGame": "Leave Game"
+  }
+}
